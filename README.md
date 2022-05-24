@@ -1,1 +1,1 @@
-# abely-cyber-security
+This is the first project within my Network and Cybersecurity Bootcamp at Georgia Tech University. Within this repository I will showcase different shell script and ansible playbooks that I have learned. 
