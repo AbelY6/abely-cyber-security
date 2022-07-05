@@ -23,7 +23,7 @@ Load balancing ensures that the application will be highly secure, in addition t
 
 What aspect of security do load balancers protect? What is the advantage of a jump box?_
 
-Load balancers protect against Distributed-Denial of Service attacks (DDoS) which cause an entire network to shut down. DDoS attacks create a major problem for networks if not handled in a timely manner as a companyís reputation and information is at great risk. Load balancers protect the main network from being accessed but unwanted threat actors. Load balancers are like night club doors with large security guards in front that keep the riff raff out. A jump box is like a load balancer in a security sense that it provides an additional step from either being detected or hacked. The jump box allows a single road to a point. By using a jump box you can ensure that certain web pages and networks are only accessible through the jump box. In a way having a network accessible through a single point can be good and detrimental. Depending on the security level of the jump box your network and information is inaccessible to the public, however if that jump box is comprised then danger awaits.  
+Load balancers protect against Distributed-Denial of Service attacks (DDoS) which cause an entire network to shut down. DDoS attacks create a major problem for networks if not handled in a timely manner as a company‚Äôs reputation and information is at great risk. Load balancers protect the main network from being accessed but unwanted threat actors. Load balancers are like night club doors with large security guards in front that keep the riff raff out. A jump box is like a load balancer in a security sense that it provides an additional step from either being detected or hacked. The jump box allows a single road to a point. By using a jump box you can ensure that certain web pages and networks are only accessible through the jump box. In a way having a network accessible through a single point can be good and detrimental. Depending on the security level of the jump box your network and information is inaccessible to the public, however if that jump box is comprised then danger awaits.  
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system acitiviy.
 
@@ -64,7 +64,6 @@ What is the main advantage of automating configuration with Ansible? Automation 
 
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - Install Docker 
 - Install Filebeat and Metricbeat to desired machines
 - Allows for GUI on local host machine 
@@ -90,7 +89,7 @@ SSH into the control node and follow the steps below:
 
 - Update the configuration file to include the IP address of where Kibana will be hosted along with the port that will allow access. 
 
-- Run the playbook, and navigate to ìhttp://20.70.66.166:5601î to check that the installation worked as expected. The public Ip address for 10.1.0.4.
+- Run the playbook, and navigate to ‚Äúhttp://20.70.66.166:5601‚Äù to check that the installation worked as expected. The public Ip address for 10.1.0.4.
 
 Answer the following questions to fill in the blanks:_
 
